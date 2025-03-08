@@ -84,7 +84,7 @@ Estas librerías vienen incluidas con Python y no requieren instalación adicion
 ✅ `azureml-sdk` → Herramientas para Machine Learning en Azure.
 ✅ `mmlspark` → Machine Learning en Spark con Azure.
 ✅ `fugue` → Orquestación de computación distribuida en Pandas, Spark y Dask.
-
+✅ `ternary` → generar y visualizar diagramas ternarios, que son gráficos en los que se representan proporciones de tres variables que suman un total constante (generalmente 1 o 100%). Estos gráficos son comunes en geología, química, y análisis de mezclas..
 ---
 
 ## 6️⃣ Librerías para APIs y Despliegue 🚀
