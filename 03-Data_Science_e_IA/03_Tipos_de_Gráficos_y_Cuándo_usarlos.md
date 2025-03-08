@@ -63,6 +63,7 @@ Matplotlib es una de las bibliotecas más versátiles para la visualización de 
 ✅ **Aprovecha las herramientas de personalización** para hacer gráficos más claros y atractivos.
 ✅ **Para gráficos interactivos**, considera usar `plotly` o `bokeh`.
 ✅ **Si trabajas con grandes volúmenes de datos**, optimiza los gráficos para evitar sobrecarga visual.
+
 # 📌 Tipos de Gráficos en Seaborn
 
 Seaborn es una biblioteca de visualización de datos basada en Matplotlib que proporciona una interfaz de alto nivel para crear atractivos gráficos estadísticos. A continuación, se presentan los principales tipos de gráficos que ofrece Seaborn, organizados por categoría.
