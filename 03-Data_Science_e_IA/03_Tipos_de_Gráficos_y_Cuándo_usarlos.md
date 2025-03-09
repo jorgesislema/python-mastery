@@ -136,5 +136,120 @@ Estos gráficos ayudan a visualizar patrones en datos temporales.
 ✅ **Usa `hue`, `style` y `size` en Seaborn** para agregar dimensiones adicionales a los datos.
 ✅ **Combina varios tipos de gráficos** para obtener una mejor comprensión de los datos.
 
-Si necesitas ejemplos específicos de código o quieres ver algún gráfico en acción, avísame. 🚀📊
+
+# 📈 Gráficos en Plotly (Lista Completa)
+
+Plotly es una biblioteca de visualización interactiva para Python que permite crear gráficos altamente personalizables y visualmente atractivos. A continuación, se presentan los tipos de gráficos disponibles en Plotly, organizados por categoría.
+
+---
+
+## 1️⃣ Gráficos Básicos
+
+Estos gráficos son fundamentales para la visualización de datos en cualquier análisis.
+
+- **Gráfico de Líneas** (`plotly.express.line`)
+- **Gráfico de Barras** (`plotly.express.bar`)
+- **Gráfico de Dispersión** (`plotly.express.scatter`)
+- **Histograma** (`plotly.express.histogram`)
+- **Gráfico de Áreas** (`plotly.express.area`)
+- **Gráfico de Pastel** (`plotly.express.pie`)
+- **Boxplot (Diagrama de Cajas)** (`plotly.express.box`)
+- **Violin Plot** (`plotly.express.violin`)
+- **Funnel Chart (Gráfico de Embudo)** (`plotly.express.funnel`)
+
+---
+
+## 2️⃣ Gráficos de Relación
+
+Estos gráficos permiten visualizar relaciones entre variables.
+
+- **Gráfico de Dispersión en 2D** (`plotly.express.scatter`)
+- **Gráfico de Burbujas** (`plotly.express.scatter` con `size` y `color`)
+- **Gráfico de Matriz de Dispersión** (`plotly.express.scatter_matrix`)
+- **Gráfico de Tendencia con Línea de Regresión** (`plotly.express.scatter` con `trendline`)
+- **Gráfico de Pares (Pairplot)** (`plotly.express.scatter_matrix`)
+
+---
+
+## 3️⃣ Gráficos Categóricos
+
+Estos gráficos ayudan a visualizar datos categóricos en diferentes formatos.
+
+- **Gráfico de Barras Apiladas** (`plotly.express.bar` con `barmode='stack'`)
+- **Gráfico de Barras Agrupadas** (`plotly.express.bar` con `barmode='group'`)
+- **Treemap (Diagrama de árbol)** (`plotly.express.treemap`)
+- **Sunburst Chart (Gráfico de Sol)** (`plotly.express.sunburst`)
+- **Funnel Chart (Embudo)** (`plotly.express.funnel`)
+
+---
+
+## 4️⃣ Gráficos de Matriz y Mapas de Calor
+
+Estos gráficos permiten visualizar relaciones entre variables en una matriz.
+
+- **Heatmap (Mapa de Calor)** (`plotly.express.imshow` o `plotly.graph_objects.Heatmap`)
+- **Matriz de Correlación** (`plotly.express.imshow` con `df.corr()`)
+- **Cluster Map (Mapa de Clusters)** (`plotly.express.imshow` con clustering)
+
+---
+
+## 5️⃣ Gráficos de Series Temporales
+
+Estos gráficos se utilizan para analizar datos a lo largo del tiempo.
+
+- **Línea de Tiempo** (`plotly.express.line` con `x=time`)
+- **Gráfico de Barras Temporales** (`plotly.express.bar` con `x=time`)
+- **Heatmap de Series Temporales** (`plotly.graph_objects.Heatmap` con `z=data`)
+- **Candlestick Chart (Velas Japonesas)** (`plotly.graph_objects.Candlestick`)
+- **OHLC Chart** (`plotly.graph_objects.Ohlc`)
+
+---
+
+## 6️⃣ Gráficos 3D
+
+Estos gráficos permiten representar datos en un espacio tridimensional.
+
+- **Gráfico de Dispersión 3D** (`plotly.express.scatter_3d`)
+- **Gráfico de Superficie 3D** (`plotly.graph_objects.Surface`)
+- **Gráfico de Líneas 3D** (`plotly.express.line_3d`)
+- **Gráfico de Barras 3D** (`plotly.graph_objects.Bar3d`)
+
+---
+
+## 7️⃣ Gráficos de Mapas Geoespaciales
+
+Estos gráficos permiten visualizar datos sobre mapas geográficos.
+
+- **Choropleth Map** (`plotly.express.choropleth`)
+- **Scatter Geo (Mapa de Puntos)** (`plotly.express.scatter_geo`)
+- **Bubble Map (Mapa de Burbujas)** (`plotly.express.scatter_geo` con `size` y `color`)
+- **Mapbox Maps** (`plotly.express.scatter_mapbox`)
+
+---
+
+## 8️⃣ Gráficos de Redes y Jerárquicos
+
+Estos gráficos representan relaciones entre nodos y jerarquías de datos.
+
+- **Diagrama de Sankey** (`plotly.graph_objects.Sankey`)
+- **Network Graph (Grafo de Red)** (`plotly.graph_objects.Scatter` con `mode='lines'`)
+- **Diagrama de Flujo de Datos** (`plotly.graph_objects.Sankey` con múltiples nodos)
+
+---
+
+## 9️⃣ Gráficos Estadísticos Avanzados
+
+Estos gráficos permiten realizar análisis estadísticos visuales.
+
+- **QQ Plot (Gráfico Cuantil-Cuantil)** (`plotly.graph_objects.Scatter` con distribución teórica)
+- **ROC Curve (Curva ROC)** (`plotly.graph_objects.Scatter` con `x=false_positive_rate, y=true_positive_rate`)
+- **Violin Plot Avanzado** (`plotly.express.violin` con opciones personalizadas)
+
+---
+
+## 🔍 Conclusión
+
+Plotly ofrece una amplia variedad de gráficos que permiten analizar y visualizar datos de manera efectiva e interactiva. Según el tipo de análisis que desees realizar, puedes elegir el gráfico más adecuado para representar tus datos de forma clara y comprensible.
+
+
 
