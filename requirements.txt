@@ -1,0 +1,60 @@
+# Python Mastery — Dependencias Principales
+# Instalar: pip install -r requirements.txt
+
+# === CORE ===
+numpy>=2.1
+pandas>=3.0
+polars>=2.0
+
+# === MACHINE LEARNING ===
+scikit-learn>=1.6
+xgboost>=2.1
+lightgbm>=4.5
+optuna>=4.0
+
+# === DEEP LEARNING ===
+torch>=2.7
+torchvision>=0.22
+transformers>=4.48
+
+# === AI / LLM ===
+langchain>=0.3
+langchain-openai>=0.3
+langchain-community>=0.3
+langgraph>=0.2
+openai>=1.60
+chromadb>=0.6
+sentence-transformers>=3.4
+tiktoken>=0.8
+
+# === DATA SCIENCE ===
+scipy>=1.14
+statsmodels>=0.14
+seaborn>=0.14
+
+# === BACKEND ===
+fastapi>=0.115
+uvicorn>=0.34
+pydantic>=3.10
+sqlalchemy>=2.0
+alembic>=1.14
+python-jose>=3.3
+passlib>=1.7
+redis>=5.2
+
+# === VISUALIZATION ===
+matplotlib>=3.9
+plotly>=6.0
+streamlit>=1.40
+
+# === INGENIERIA DE DATOS ===
+pyspark>=4.0
+delta-spark>=4.0
+apache-airflow>=3.0
+great-expectations>=0.18
+
+# === TOOLS ===
+pytest>=8.0
+ruff>=0.8
+mypy>=1.13
+joblib>=1.4
